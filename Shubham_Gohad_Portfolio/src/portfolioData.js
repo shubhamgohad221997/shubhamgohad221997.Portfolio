@@ -204,31 +204,31 @@ const footerSocialData = [
     id: 1,
     socialName: "Linkedin",
     socialImg: "fab fa-linkedin",
-    socialURL: "https://www.linkedin.com/in/aditya-muthal-41954a1a1/",
+    socialURL: "https://www.linkedin.com/in/shubham-gohad-895321230/",
   },
   {
     id: 2,
     socialName: "Github",
     socialImg: "fab fa-github",
-    socialURL: "https://github.com/adityamuthal22",
+    socialURL: "https://github.com/shubhamgohad221997",
   },
   {
     id: 3,
     socialName: "Gmail-id",
     socialImg: "fa fa-envelope",
-    socialURL: "mailto:adityamuthal.2208@gmail.com",
+    socialURL: "mailto:shubhamgohad221997@gmail.com",
   },
   {
     id: 4,
     socialName: "Medium",
     socialImg: "fa fa-blog",
-    socialURL: "https://medium.com/@adityamuthal.2208",
+    socialURL: "",
   },
   {
     id: 5,
     socialName: "Mobile",
     socialImg: "fa fa-mobile",
-    socialURL: "tel:+918007196950",
+    socialURL: "tel:+917507321727",
   },
 
 ];
