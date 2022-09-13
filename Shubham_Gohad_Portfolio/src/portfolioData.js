@@ -51,52 +51,53 @@ const headerImage = {
 const projectsData = [
   {
     id: 1,
-    liveDemo: "https://nature-basket-clone-488ad1.netlify.app/",
-    projectName: "Nature Basket-Clone",
-    imgURL: require("./images/NatureBasket_projects1.jpg"),
+    liveDemo: "https://eclectic-paletas-0001f4.netlify.app/",
+    projectName: "Clone of Mytheresa.com",
+    imgURL: require("./images/mytheresa.png"),
     liveDemoText: "Live Demo",
     project__info:
-      "Nature's Basket is an Indian grocery delivery chain of retail stores focused in gourmet food. I designed and built landing page and footer section and it is built using HTML, CSS,JavaScript and bootstrap.",
+      "Mytheresa.com is an online store for men, women, and kids. You can buy a wide range of branded clothes, apparel, accessories, and shoes online It was a group project, with 5 members.",
     sourceCodeText: "Source Code",
-    sourceURL: "",
+    sourceURL: "https://github.com/ArjunSinghBhakuni/Mytheresa-clone-website",
     filter__word: "javascript",
   },
   {
     id: 2,
-    liveDemo: "https://stellar-crisp-f229d2.netlify.app/",
-    projectName: "Croma.com-Clone",
-    imgURL: require("./images/Croma.com_clone.jpg"),
+    liveDemo: "https://deluxe-faun-2ed95e.netlify.app/",
+    projectName: "Clone of NORDSTROM.com",
+    imgURL: require("./images/nordstrom.png"),
     liveDemoText: "Live Demo",
     project__info:
-      "Croma is an Indian retail chain of consumer electronics and durables run by Infiniti Retail, a subsidiary of the Tata Group. I built and designed a responsive page for croma website and it is built using HTML, CSS, JavaScript, and Bootstrap.",
+      "It is a leading fashion retailer offering compelling clothing, shoe accessories for men, women, kids.",
     sourceCodeText: "Source Code",
-    sourceURL: " ",
+    sourceURL: "https://github.com/shivambais/projectAllFileInOne ",
     filter__word: "javascript",
   },
   {
     id: 3,
-    liveDemo: "https://dna-india-clone.vercel.app/",
-    projectName: "DNA-INDIA_Clone",
-    imgURL: require("./images/DNA_INDIA_Clone.jpg"),
+    liveDemo: "https://inquisitive-cupcake-904272.netlify.app/",
+    projectName: "Clone of urbancompany.com",
+    imgURL: require("./images/urbancompany.png"),
     liveDemoText: "Live Demo",
     project__info:
-      "DNA India Covers all latest and breaking news on Politics, Business, Sports, Bollywood, technology & health etc. I designed and built a responsive page for dna_india website. Technologies used HTML5, CSS3, React, Chakra-ui and Bootstrap.",
+      "Urban Company is your one-stop destination for expert local services. Get dozens of trusted professionals near you to take care of all your home and beauty product provider.",
     sourceCodeText: "Source Code",
-    sourceURL: " ",
+    sourceURL: "https://github.com/shubhamgohad221997/gratis-shoe-2388 ",
     filter__word: "react",
   },
-  {
-    id: 4,
-    liveDemo: "https://survey-monkey-jx4d0956z-adityamuthal2208-gmailcom.vercel.app/",
-    projectName: "SurveyMonkey_Clone",
-    imgURL: require("./images/SurveyMonkey_clone.jpg"),
-    liveDemoText: "Live Demo",
-    project__info:
-      "SurveyMonkey is a cloud-based survey tool that helps users create, send and analyze surveys. I built a responsive page for this project and it is built using HTML, CSS, chakra-ui, React and JavaScript.",
-    sourceCodeText: "Source Code",
-    sourceURL: "",
-    filter__word: "react",
-  },
+  
+  // {
+  //   id: 4,
+  //   liveDemo: "https://survey-monkey-jx4d0956z-adityamuthal2208-gmailcom.vercel.app/",
+  //   projectName: "SurveyMonkey_Clone",
+  //   imgURL: require("./images/SurveyMonkey_clone.jpg"),
+  //   liveDemoText: "Live Demo",
+  //   project__info:
+  //     "SurveyMonkey is a cloud-based survey tool that helps users create, send and analyze surveys. I built a responsive page for this project and it is built using HTML, CSS, chakra-ui, React and JavaScript.",
+  //   sourceCodeText: "Source Code",
+  //   sourceURL: "",
+  //   filter__word: "react",
+  // },
   
 ];
 
@@ -173,35 +174,6 @@ const AboutServices = {
   title: "services",
 };
 
-// const servicesData = [
-//   {
-//     id: 1,
-//     serviceName: "Web development",
-//     serviceImg: require("./images/undraw_version_control_9bpv.svg"),
-//     serviceDescription:
-//       "I can build your ideal website from scratch with the newest technologies.",
-//   },
-//   {
-//     id: 2,
-//     serviceName: "GRAPHIC DESIGN",
-//     serviceImg: require("./images/undraw_design_notes_8dmv.svg"),
-//     serviceDescription:
-//       "I can design your website and make it beautiful to right fit your test.",
-//   },
-//   {
-//     id: 3,
-//     serviceName: "UX & UI DESIGN",
-//     serviceImg: require("./images/undraw_design_tools_42tf.svg"),
-//     serviceDescription:
-//       "I can make the user interface and experience more appealing to users.",
-//   },
-//   {
-//     id: 4,
-//     serviceName: "SEO",
-//     serviceImg: require("./images/undraw_file_searching_duff.svg"),
-//     serviceDescription: "Can make your website appears on top when searching.",
-//   },
-// ];
 
 const resumeData = {
   id: "resume",
