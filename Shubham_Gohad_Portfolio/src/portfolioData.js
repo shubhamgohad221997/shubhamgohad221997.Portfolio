@@ -40,7 +40,7 @@ const headerInfo = {
   imgURL:require("./images/Shubham1.png"),
   name: "I'm Shubham",
   job: "Full Stack Web Developer ",
-  resumeLink: require("./download/Shubham_Gohad.pdf"),
+  resumeLink: require("./download/ShubhamGohad_Resume.pdf"),
   fontIcon: "fas fa-download",
   AnchorText: "download resume",
 };
@@ -86,18 +86,18 @@ const projectsData = [
     filter__word: "react",
   },
   
-  // {
-  //   id: 4,
-  //   liveDemo: "https://survey-monkey-jx4d0956z-adityamuthal2208-gmailcom.vercel.app/",
-  //   projectName: "SurveyMonkey_Clone",
-  //   imgURL: require("./images/SurveyMonkey_clone.jpg"),
-  //   liveDemoText: "Live Demo",
-  //   project__info:
-  //     "SurveyMonkey is a cloud-based survey tool that helps users create, send and analyze surveys. I built a responsive page for this project and it is built using HTML, CSS, chakra-ui, React and JavaScript.",
-  //   sourceCodeText: "Source Code",
-  //   sourceURL: "",
-  //   filter__word: "react",
-  // },
+  {
+    id: 4,
+    liveDemo: "https://clockifyy.netlify.app//",
+    projectName: "Clone of Clockify ",
+    imgURL: require("./images/time.png"),
+    liveDemoText: "Live Demo",
+    project__info:
+      "Clockify is one of the best Time tracking website. In this website you can easily track your time and manage also. It was a group project, with 5 members. My task in this project was to create a Sidebar, Time tracker page and Manage the backend of time tracker page ",
+    sourceCodeText: "Source Code",
+    sourceURL: "https://github.com/Durgashankar001/clockify_clone",
+    filter__word: "react",
+  },
   
 ];
 
@@ -113,6 +113,7 @@ const portfolioList = [
   { id: 1, filtering: ".all", list__word: "All", active: "custom__active" },
   { id: 2, filtering: ".javascript", list__word: "JavaScript", active: "" },
   { id: 3, filtering: ".react", list__word: "React", active: "" },
+  { id: 4, filtering: ".react", list__word: "React", active: "" },
 ];
 const SkillsSection = {
   id: "skills",
@@ -181,7 +182,7 @@ const resumeData = {
           please feel free to click the download button, The resume provides
           detailed information about me and more contact information.`,
   resumeAnchorText: "Download Resume",
-  resumeURL: require("./download/Shubham_Gohad.pdf"),
+  resumeURL: require("./download/ShubhamGohad_Resume.pdf"),
 };
 
 const contactData = {

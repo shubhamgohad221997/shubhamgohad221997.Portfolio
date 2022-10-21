@@ -1,6 +1,6 @@
 {
-  "name": "Shubham Gohad",
-  "homepage": "",
+  "name": "Portfolio",
+  "homepage": "https://shubhamgohad221997.github.io",
   "description": "Shubham Gohad  a Software Engineer who loves building websites & loves programming.",
   "version": "0.1.0",
   "private": false,
@@ -33,6 +33,7 @@
     "eslint-plugin-react-hooks": "^1.6.1",
     "file-loader": "4.3.0",
     "fs-extra": "^8.1.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "4.0.0-beta.11",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
@@ -70,9 +71,12 @@
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
+ 
   },
   "eslintConfig": {
     "extends": "react-app"
